@@ -10,7 +10,7 @@ header {
 }
 
 nav {
-  background-color: white ;
+  background-color: white;
   height: 6rem;
   display: flex;
   align-items: center;
@@ -54,7 +54,7 @@ ul li {
 }
 
 section {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 .section-1 {
@@ -66,7 +66,86 @@ section {
   background-color: bisque;
 }
 
+
 footer {
   background-color: black;
-  padding: 1rem;
+  padding: 2rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  position: relative;
+}
+
+.footer-every {
+  display: flex;
+  gap: 50%;
+  justify-content: center;
+  flex-grow: 1;
+  margin-bottom: 2rem;
+}
+
+.footer-team {
+  display: flex;
+  gap: 3rem;
+}
+
+.footer-collab {
+  display: flex;
+  gap: 20%;
+}
+
+.footer-swed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-ned {
+  display: flex;
+  align-items: center;
+}
+
+.footer-dif {
+  display: flex;
+  align-items: center;
+}
+
+.footer-cop {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  width: 100%;
+}
+
+.footer-cop_text {
+  color: rgb(180, 180, 180);
+  font-size: 0.9rem;
+}
+
+.footer-names {
+  color: white;
+  margin: 0.5rem 0;
+}
+
+.footer-title {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.footer-land {
+  color: white;
+  margin: 0.3rem 0;
+}
+
+.footer-di_text {
+  color: white;
+}
+
+.footer-website ul,
+.footer-media ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
