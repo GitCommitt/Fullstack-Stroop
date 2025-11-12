@@ -12,12 +12,36 @@ header {
 nav {
   background-color: white ;
   height: 6rem;
+  display: flex;
+  align-items: center;
+  padding-right: 4rem;
+}
+
+nav ul {
+  display: flex;
+  margin-left: auto;
+  gap: 3.5rem;
 }
 
 ul li {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  display: inline-block;
+  padding: 1rem 3rem;
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.logo-container {
+  width: 70px;
+  height: 70px;
+}
+
+.logo-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  margin-left: 1.5rem;
+  object-fit: cover;
 }
 
 section {
