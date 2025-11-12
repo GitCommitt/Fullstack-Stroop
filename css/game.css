@@ -17,10 +17,41 @@ header {
     background-color: rgba(234, 230, 230, 0.7);
     -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
-    will-change: backdrop-filter;
     border-bottom: 1px solid rgba(0, 0, 0, 0.06);
     box-shadow: 0 2px 10px rgba(10, 10, 10, 0.04);
     transition: background-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.game_image {
+    display: flex;
+    flex-direction: column;
+    width: 94vw;
+    height: 60vh;
+    margin-bottom: 2%;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-right: 4%;
+}
+
+.Group_Photo {
+    display: flex;
+    flex-direction: row;
+}
+
+.group_roles {
+    display: flex;
+    flex-direction: column; /* stack items vertically */
+    gap: 8px;
+    margin-top: 8px;
+    padding-left: 0; /* reset if used as list container */
+}
+
+.group_roles li {
+    list-style: disc; /* show bullets */
+    margin-left: 20px; /* indent bullets */
 }
 
 .info_section {
@@ -34,24 +65,10 @@ header {
     padding: 48px;
     border-radius: 16px;
     margin: 36px;
-    margin-right: 60%;
+    margin-top: 3%;
+    margin-right: 13%;
     margin-left: 3%;
-    border-radius:30px ;
-}
-
-.game_image2 {
-    display: flex;
-    flex-direction: column;
-    width: 94vw;
-    height: 60vh;
-    margin-bottom: 20px;
     border-radius: 30px;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 3%;
-    margin-top: 2%;
-    margin-right: 2%;
 }
 
 .game_title {
@@ -71,4 +88,47 @@ header {
     display: flex;
     margin-bottom: 40px;
     margin-left: 3%;
+}
+
+.details_row{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.group_Photo{
+    display: flex;
+    flex-direction: row;
+    border-radius: 16px;
+    height:  40vh;
+}
+
+.group_Photoarea{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    margin-top: 7%;
+    margin-left: 3%;
+    margin-right: 5%;
+}
+
+
+
+.group_roles h1 {
+    margin-top: 40%;
+    text-align: center;
+    width: 100%;
+    margin: 0 0 8px 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    
+} 
+
+.group_info{
+    background-color: #5a6270;
+    border-radius: 16px;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 5%;
 }

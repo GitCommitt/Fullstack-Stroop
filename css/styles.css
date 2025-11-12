@@ -3,3 +3,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   
 }
+
+.Group_Photo{
+    display: flex;
+    flex-direction: row;
+}
