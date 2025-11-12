@@ -97,11 +97,13 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-width: 43%;
 }
 
 .footer-ned {
   display: flex;
   align-items: center;
+  min-width: 100% ;
 }
 
 .footer-dif {
