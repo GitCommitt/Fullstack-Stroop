@@ -1,54 +1,60 @@
-media team
+## Media
+**Lisa van Galen** – Photographic Designer  
+**Paulina Figurina** – Graphic Designer  
+**Evin Ocklind** – Media Designer  
+**Esmée van der Land** – Audiovisual  
+**Milan Schildknegt** – Audiovisual  
+**Lyna Israil** – Audiovisual
 
-Lisa van Galen Photographic designer
-Paulina figurina Grafic designer
-Esmée van der Land audiovisueel
-Lyna Israil Audiovisueel 
-Evin ocklind media designer 
-Milan schildknegt Audiovisueel 
+## Software Developers
+**Daan Pronk** – Full Stack Developer  
+**Jesper van Niekerk** – Full Stack Developer  
+**Louella Hanen** – Full Stack Developer  
+**Micha Vas** – Web Development  
+**Johan Yongxian** – App and Web Development
 
+## Team 1
+Nog niet ingevuld
 
-team 1
+## Team 2
+Nog niet ingevuld
 
+## Team 3 — Viking Game
+**Titel:** Viking Game  
+**Genre:** Beat 'em Up
 
-team 2
+**Aira van Vliet** – Full Stack Developer  
+**Mylena Krijnen** – Game Artist  
+**Sofija Bashkevich** – Game Artist  
+**Aurora Törlind** – Game Artist  
+**Tyra Hansson** – Game Artist  
+**Kevin Mei** – Game Developer  
+**Sammy Verdan** – Game Developer  
+**Niklas Landborg** – Game Developer  
+**Ture Johansson** – Game Developer
 
+## Team 4 — Train Game
+**Titel:** Train Game  
+**Genre:** Puzzle
 
-team 3
-title:Viking game
-Genre:Beat em up
-Aira Van Vilet - Full stack developer
-Mylena Krijnen - Game artist
-Sofija Bashkevich - Game artist
-Aurora Törlind - Game artist
-Tyra Hansson - Game artist
-Kevin Mei - Game developer
-Sammy Verdan - Game developer
-Niklas Landborg - Game developer
-Ture Johansson - Game developer
+**Yevhen Tiutiunnyk** – Full Stack Developer  
+**Julia Heeremans** – Game Artist  
+**Sydney Nieuweveen** – Game Artist  
+**Tim Khysing** – Game Artist  
+**Evelyn Oreland** – Game Artist  
+**Bo Bolweg** – Game Developer  
+**Kalle Ehrsson** – Game Developer  
+**Charlie Buhre Hägglund** – Game Developer
 
-team 4
+## Team 5 — Gnome Game
+**Titel:** Gnome Game  
+**Genre:** Maze Game
 
-title:Train game 
-Genre:Puzzel
-Yevhen Tiutiunnyk - Full stack developer
-Julia Heeremans - Game artist
-Sydney Niueweveen - Game artist
-Tim Khysing - Game artist
-Evelyn Oreland - Game artist
-Bo Bolweg - Game developer
-Kalle Ehrsson - Game developer
-Charlie Buhre Hägglund - Game devoloper
-
-team 5
-
-title:Gnome game
-Genre:Maze game 
-Kurt Beeenen - Full stack developer
-Roselin Samsuri - Game artist
-Willem Westendorp - Game artist
-Alva Karaki Adnsveden - Game artist
-Liv Alles - Game developer
-Skyler Tromp - Game developer
-Steale Van Walbeek - Game developer
-Rocco Michel - Game developer
+**Kurt Beenen** – Full Stack Developer  
+**Roselin Samsuri** – Game Artist  
+**Willem Westendorp** – Game Artist  
+**Alva Karaki Adnsveden** – Game Artist  
+**Liv Alles** – Game Developer  
+**Skyler Tromp** – Game Developer  
+**Steale van Walbeek** – Game Developer  
+**Rocco Michel** – Game Developer
