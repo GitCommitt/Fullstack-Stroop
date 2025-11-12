@@ -13,11 +13,31 @@
 **Micha Vas** – Web Development  
 **Johan Yongxian** – App and Web Development
 
-## Team 1
-Nog niet ingevuld
+## Team 1 — Game 01
+**Titel:** 
+**Genre:** 
 
-## Team 2
-Nog niet ingevuld
+**Nick Esselman** – Full Stack Developer  
+**Andreas Kreefft-Libiu** – Game Artist  
+**Tim Schouten** – Game Artist  
+**Julia Hjalmarström** – Game Artist  
+**Rebecka Åslund** – Game Artist  
+**Julian van de Leek** – Game Developer  
+**Jack Thanh** – Game Developer  
+**Alicia Faune Gonzalez** – Game Developer
+
+## Team 2 — Game 02
+**Titel:** 
+**Genre:** 
+
+**Yago Breedijk** – Full Stack Developer  
+**Fiene de Witte** – Game Artist  
+**Ben Ekvall Johansson** – Game Artist  
+**Filip Carlsson** – Game Artist  
+**Arthur Henriquea Garcia** – Game Developer  
+**Oscar Ahlm** – Game Developer  
+**Victor Jeppson** – Game Developer  
+**Lucas Palmhager** – Game Developer
 
 ## Team 3 — Viking Game
 **Titel:** Viking Game  
