@@ -4,9 +4,10 @@ body {
 }
 
 header {
-  background-color: aqua;
+  background-color: rgb(0, 255, 255);
   min-height: 100vh;
-  border-bottom: 5px solid white;
+  position: relative;
+  overflow: hidden;
 }
 
 nav {
@@ -46,11 +47,55 @@ ul li {
 
 .page-title {
   text-align: center;
-  font-size: 3rem;
+  height: 6rem;       
+  margin-bottom: 1rem; 
+}
+
+.page-title h1 {
+  font-size: 6rem;
+  color: #003367;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #003367; /* blinking cursor */
+  animation: blink 0.7s step-end infinite;
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
 }
 
 .frontpage-video {
+  display: flex;
+  justify-content: center;
   align-items: center;
+}
+
+.frontpage-video iframe {
+  width: clamp(250px, 60vw, 800px); /* responsive width */
+  border: none;
+  height: 23rem;
+  margin-top: 3rem;
+  border-radius: 1rem; 
+}
+
+.wave-1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: block;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  z-index: 0;
+}
+
+nav, .page-title,
+.frontpage-video {
+  position: relative;
+  z-index: 1;
 }
 
 section {
@@ -58,8 +103,7 @@ section {
 }
 
 .section-1 {
-  background-color: aquamarine;
-  border-bottom: 5px solid white;
+  background-color: #003367;
 }
 
 .section-2 {
