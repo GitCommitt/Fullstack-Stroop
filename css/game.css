@@ -23,29 +23,40 @@ header {
   transition: background-color 0.18s ease, box-shadow 0.18s ease;
 }
 
-.game_image{    
-    width: 100%;
-    height: auto;
+.info_section{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #5a6270;
+    
+}
+
+.game_image2{    
+    display: flex;
+    width: 90vw;
+    height: 60vh;
     margin-bottom: 20px;
+    border-radius: 8px;
+    gap: 20px;
+    align-content: center;
 }
 
 .game_title{
-    text-align: center;
     margin-bottom: 20px;
 }
 
 .game_genre{
-    text-align: center;
     margin-bottom: 20px;
 }
 
 .game_info{
-    text-align: center;
     margin-bottom: 20px;
 }
 
 .download_button{
     display: flex;
-    justify-content: center;
     margin-bottom: 40px;
 }
