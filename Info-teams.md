@@ -27,7 +27,7 @@
 **Alicia Faune Gonzalez** – Game Developer
 
 ## Team 2 — Game 02  
-**Titel:** –  Cheese heist
+**Titel:** –  Cheese heist Game
 **Genre:** – Mini Games
 
 **Yago Breedijk** – Full Stack Developer  
