@@ -13,9 +13,9 @@
 **Micha Vas** – Web Development  
 **Johan Yongxian** – App and Web Development
 
-## Team 1 — Game 01
-**Titel:** 
-**Genre:** 
+## Team 1 — Game 01  
+**Titel:** –  
+**Genre:** –
 
 **Nick Esselman** – Full Stack Developer  
 **Andreas Kreefft-Libiu** – Game Artist  
@@ -26,9 +26,9 @@
 **Jack Thanh** – Game Developer  
 **Alicia Faune Gonzalez** – Game Developer
 
-## Team 2 — Game 02
-**Titel:** 
-**Genre:** 
+## Team 2 — Game 02  
+**Titel:** –  
+**Genre:** –
 
 **Yago Breedijk** – Full Stack Developer  
 **Fiene de Witte** – Game Artist  
@@ -39,7 +39,7 @@
 **Victor Jeppson** – Game Developer  
 **Lucas Palmhager** – Game Developer
 
-## Team 3 — Viking Game
+## Team 3 — Viking Game  
 **Titel:** Viking Game  
 **Genre:** Beat 'em Up
 
@@ -53,7 +53,7 @@
 **Niklas Landborg** – Game Developer  
 **Ture Johansson** – Game Developer
 
-## Team 4 — Train Game
+## Team 4 — Train Game  
 **Titel:** Train Game  
 **Genre:** Puzzle
 
@@ -66,7 +66,7 @@
 **Kalle Ehrsson** – Game Developer  
 **Charlie Buhre Hägglund** – Game Developer
 
-## Team 5 — Gnome Game
+## Team 5 — Gnome Game  
 **Titel:** Gnome Game  
 **Genre:** Maze Game
 
