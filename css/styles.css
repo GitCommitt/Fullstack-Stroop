@@ -9,6 +9,17 @@ header {
   border-bottom: 5px solid white;
 }
 
+nav {
+  background-color: white ;
+  height: 6rem;
+}
+
+ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 section {
     min-height: 100vh;
 }
@@ -24,5 +35,5 @@ section {
 
 footer {
   background-color: black;
-  padding: 20px;
+  padding: 1rem;
 }
