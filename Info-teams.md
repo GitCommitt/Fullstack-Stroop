@@ -14,8 +14,8 @@
 **Johan Yongxian** – App and Web Development
 
 ## Team 1 — Game 01  
-**Titel:** –  
-**Genre:** –
+**Titel:** –  Ikea delivery Game
+**Genre:** – Delivery Game
 
 **Nick Esselman** – Full Stack Developer  
 **Andreas Kreefft-Libiu** – Game Artist  
@@ -27,8 +27,8 @@
 **Alicia Faune Gonzalez** – Game Developer
 
 ## Team 2 — Game 02  
-**Titel:** –  
-**Genre:** –
+**Titel:** –  Cheese heist
+**Genre:** – Mini Games
 
 **Yago Breedijk** – Full Stack Developer  
 **Fiene de Witte** – Game Artist  
