@@ -44,6 +44,15 @@ ul li {
   object-fit: cover;
 }
 
+.page-title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.frontpage-video {
+  align-items: center;
+}
+
 section {
     min-height: 100vh;
 }
