@@ -14,11 +14,6 @@ header {
   overflow: hidden;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-
 #particles-js {
   position: absolute;  /* stays behind everything */
   top: 0;
@@ -29,8 +24,6 @@ header {
   background: #000;
 }
 
->>>>>>> c77df33e8f2f98ea26634c54f17c653ede21129c
->>>>>>> 2b60c0e4d719f640443d442134b6dc2ed06bf617
 nav {
   background-color: transparent;
   height: 6rem;
@@ -57,8 +50,8 @@ ul li {
 }
 
 .logo-container {
-  width: 70px;
-  height: 70px;
+  width: 150px;
+  height: 150px;
 }
 
 .logo-container img {
@@ -66,7 +59,7 @@ ul li {
   height: 100%;
   border-radius: 40px;
   margin-left: 1.5rem;
-  object-fit: cover;
+  object-fit: contain;
   opacity: 0;
   transform: translateY(-30px);
   animation: fadeIn 0.8s ease-out forwards;
