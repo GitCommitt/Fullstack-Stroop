@@ -79,7 +79,7 @@ header {
     background-color: var(--card-bg);
     border-radius: 30px;
     margin: 0 5% 0 3%;
-    height: 41vh;
+    height: 55vh;
 }
 
 .group_roles {
@@ -87,22 +87,25 @@ header {
     flex-direction: column;
     gap: 8px;
     margin-top: 8px;
-    padding-left: 0;
+    padding-left: 0;;
 }
 
 .group_roles li {
+    display: flex;
     list-style: disc;
-    margin-left: 20px;
+    margin-left: 15%;
     text-align: center;
     list-style-type: none;
-    margin-right: 10%;
+    margin-right: 15%;
+    font-size: 1.1rem;
+    margin-bottom: 2%;
 }
 
 .group_roles h1 {
-    margin: 0 0 8px 0;
+    margin: 3% 0 8px 0;
     text-align: center;
     width: 100%;
-    font-size: 1.1rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
