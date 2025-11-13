@@ -37,10 +37,21 @@ header {
     justify-content: center;
 }
 
-.game_title,
-.game_genre,
+.game_title{
+      margin-bottom: 20px;
+      font-size: 2rem;
+}
+
+.game_genre{
+      margin-bottom: 20px;
+      font-size: 1.5rem;
+
+}
+
 .game_info {
     margin-bottom: 20px;
+    font-size: 1.2rem;
+
 }
 
 .info_section {
@@ -48,11 +59,11 @@ header {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin: 3% 13% 36px 3%;
+    margin: 3% 10% 36px 3%;
     background-color: var(--card-bg);
     padding: 48px;
     border-radius: 30px;
-    height: 70vh;
+    height: 85vh;
 }
 
 .details_row {
@@ -79,7 +90,7 @@ header {
     background-color: var(--card-bg);
     border-radius: 30px;
     margin: 0 5% 0 3%;
-    height: 41vh;
+    height: 55vh;
 }
 
 .group_roles {
@@ -87,36 +98,39 @@ header {
     flex-direction: column;
     gap: 8px;
     margin-top: 8px;
-    padding-left: 0;
+    padding-left: 0;;
 }
 
 .group_roles li {
+    display: flex;
     list-style: disc;
-    margin-left: 20px;
+    margin-left: 15%;
     text-align: center;
     list-style-type: none;
-    margin-right: 10%;
+    margin-right: 15%;
+    font-size: 1.1rem;
+    margin-bottom: 2%;
 }
 
 .group_roles h1 {
-    margin: 0 0 8px 0;
+    margin: 3% 0 8px 0;
     text-align: center;
     width: 100%;
-    font-size: 1.1rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
 .download_button {
     display: flex;
     margin-bottom: 40px;
-    margin-left: 6%;
+    margin-left: 2.5%;
     justify-content: left;
     border-radius: 30px;
 }
 
 button {
     margin: 0 6px;
-    font-size: 80px;
+    font-size: 20px;
     padding: 10px 16px;
     border: 1px solid rgba(0, 0, 0, 0.06);
     cursor: pointer;
