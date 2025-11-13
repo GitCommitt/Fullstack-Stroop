@@ -42,8 +42,7 @@
 ## Team 3 — Viking Game  
 **Titel:** Viking Game  
 **Genre:** Beat 'em Up
-
-**Aira van Vliet** – Full Stack Developer  
+  
 **Mylena Krijnen** – Game Artist  
 **Sofija Bashkevich** – Game Artist  
 **Aurora Törlind** – Game Artist  
