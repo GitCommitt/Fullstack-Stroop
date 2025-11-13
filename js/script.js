@@ -1,5 +1,5 @@
 const textEl = document.getElementById("typing-text");
-const texts = ["Welcome!", "Välkommen!", "Welkom!"];
+const texts = ["Welcome!", "Välkommen!", "Welkom!","欢迎来到中国" ];
 let textIndex = 0;
 let charIndex = 0;
 let deleting = false;
@@ -33,3 +33,39 @@ function type() {
 }
 
 type();
+
+// New Code 1
+
+particlesJS("particles-js", {
+  particles: {
+    number: { value: 80 },
+    color: { value: "#ffffff" },
+    shape: { type: "circle" },
+    opacity: { value: 0.4 },
+    size: { value: 3, random: true },
+    line_linked: {
+      enable: true,
+      distance: 150,
+      color: "#ffffff",
+      opacity: 0.3,
+      width: 1
+    },
+    move: {
+      enable: true,
+      speed: 1.5
+    }
+  },
+  interactivity: {
+    events: {
+      onhover: { enable: true, mode: "repulse" },
+      onclick: { enable: true, mode: "push" }
+    },
+    modes: {
+      repulse: { distance: 100 },
+      push: { particles_nb: 3 }
+    }
+  },
+  retina_detect: true
+});
+
+
