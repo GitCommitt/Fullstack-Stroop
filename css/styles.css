@@ -13,20 +13,6 @@ header {
   position: relative;
 }
 
-<<<<<<< HEAD
-=======
-
-#particles-js {
-  position: absolute;  /* stays behind everything */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  background: #000;
-}
-
->>>>>>> c77df33e8f2f98ea26634c54f17c653ede21129c
 nav {
   position: sticky;
   top: 0;
