@@ -1,5 +1,5 @@
 const textEl = document.getElementById("typing-text");
-const texts = ["Welcome!", "Välkommen!", "Welkom!","欢迎来到中国" ];
+const texts = ["Welcome!","Välkommen!", "Welkom!","欢迎来到中国","환영합니다"];
 let textIndex = 0;
 let charIndex = 0;
 let deleting = false;
