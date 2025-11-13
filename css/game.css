@@ -37,10 +37,21 @@ header {
     justify-content: center;
 }
 
-.game_title,
-.game_genre,
+.game_title{
+      margin-bottom: 20px;
+      font-size: 2rem;
+}
+
+.game_genre{
+      margin-bottom: 20px;
+      font-size: 1.5rem;
+
+}
+
 .game_info {
     margin-bottom: 20px;
+    font-size: 1.2rem;
+
 }
 
 .info_section {
@@ -48,11 +59,11 @@ header {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin: 3% 13% 36px 3%;
+    margin: 3% 10% 36px 3%;
     background-color: var(--card-bg);
     padding: 48px;
     border-radius: 30px;
-    height: 70vh;
+    height: 85vh;
 }
 
 .details_row {
@@ -112,14 +123,14 @@ header {
 .download_button {
     display: flex;
     margin-bottom: 40px;
-    margin-left: 6%;
+    margin-left: 2.5%;
     justify-content: left;
     border-radius: 30px;
 }
 
 button {
     margin: 0 6px;
-    font-size: 80px;
+    font-size: 20px;
     padding: 10px 16px;
     border: 1px solid rgba(0, 0, 0, 0.06);
     cursor: pointer;
