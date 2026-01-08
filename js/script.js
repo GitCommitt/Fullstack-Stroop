@@ -34,13 +34,6 @@ function type() {
 
 type();
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-// New Code 1
-=======
->>>>>>> 2b60c0e4d719f640443d442134b6dc2ed06bf617
-// New Code 1
 
 particlesJS("particles-js", {
   particles: {
@@ -74,9 +67,6 @@ particlesJS("particles-js", {
   retina_detect: true
 });
 
-
-<<<<<<< HEAD
-=======
     const progressBar = document.getElementById('progressBar');
     window.addEventListener('scroll', () => {
       const scrollTop = window.scrollY;
@@ -84,5 +74,3 @@ particlesJS("particles-js", {
       const scrollPercent = (scrollTop / docHeight) * 100;
       progressBar.style.width = scrollPercent + '%';
     });
->>>>>>> c77df33e8f2f98ea26634c54f17c653ede21129c
->>>>>>> 2b60c0e4d719f640443d442134b6dc2ed06bf617

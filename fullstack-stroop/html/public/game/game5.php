@@ -1,22 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/game.css">
-    <script src="/js/script.js" defer></script>
-
-</head>
+<?php
+$pageTitle = "Game 5";
+include "../../source/views/head.php" 
+?> 
 
 <body>
-    <header>
-        <nav>
-            <img src="Logo.png" alt="logo">
-            <!-- the buttons comes here -->
-        </nav>
-    </header>
+
+<?php include_once "../../source/views/header.php" ?> 
+
     <main>
 
         <img src="/img/gameplay.png" alt="Game 4 Image" class="game_image">

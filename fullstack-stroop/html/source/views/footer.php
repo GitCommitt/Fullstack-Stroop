@@ -1,40 +1,3 @@
-<?php
-
-include_once("../source/dataclasses/mydb.php");
-
-?>
-
-<?php
-$pageTitle = "Homepage";
-include "../source/views/head.php" 
-?> 
-
-<body>
-
-<?= include_once "../source/views/header.php"?>
-
- <section class="section-1">
-  <div class="group-1">
-
-      <div class="text-Info">
-
-      </div>
-
-      <div class="whole-group-photo">
-
-      </div>
-    
-      <div class="teacher-photo">
-
-      </div>
-  </div>
-
- </section>
-
- <section class="section-2">
-
- </section>
-
 <footer class="foot">
     <div class="footer-every">
       <div class="footer-team">
@@ -43,7 +6,7 @@ include "../source/views/head.php"
             <ul><h2 class="footer-title">Website</h2></ul>
             <ul><p class="footer-names">Daan Pronk</p></ul>
             <ul><p class="footer-names">Jesper van Niekerk</p></ul>
-            <ul><p class="footer-names">Louella Hanen</p></ul>
+            <ul><p class="footer-names">Luella Hanen</p></ul>
             <ul><p class="footer-names">Micha Vas</p></ul>
             <ul><p class="footer-names">Johan Yongxian</p></ul>
           </li>
@@ -78,5 +41,7 @@ include "../source/views/head.php"
         <p class="footer-cop_text">copyright 2025 - Stroop</p>
       </div>
  </footer>
+ 
 </body>
+
 </html>
