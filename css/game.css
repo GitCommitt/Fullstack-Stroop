@@ -63,7 +63,6 @@ header {
     background-color: var(--card-bg);
     padding: 48px;
     border-radius: 30px;
-    height: 85vh;
 }
 
 .details_row {
@@ -90,7 +89,6 @@ header {
     background-color: var(--card-bg);
     border-radius: 30px;
     margin: 0 5% 0 3%;
-    height: 55vh;
 }
 
 .group_roles {
