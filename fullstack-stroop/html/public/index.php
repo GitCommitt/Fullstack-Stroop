@@ -1,11 +1,6 @@
 <?php
-
-include_once("../source/dataclasses/mydb.php");
-
-?>
-
-<?php
 $pageTitle = "Homepage";
+$pageType = 'index';
 include "../source/views/head.php" 
 ?> 
 
