@@ -35,7 +35,6 @@ function type() {
 type();
 
 
-
 particlesJS("particles-js", {
   particles: {
     number: { value: 80 },
@@ -68,4 +67,10 @@ particlesJS("particles-js", {
   retina_detect: true
 });
 
-
+    const progressBar = document.getElementById('progressBar');
+    window.addEventListener('scroll', () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.body.scrollHeight - window.innerHeight;
+      const scrollPercent = (scrollTop / docHeight) * 100;
+      progressBar.style.width = scrollPercent + '%';
+    });
