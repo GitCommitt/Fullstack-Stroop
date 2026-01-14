@@ -1,5 +1,3 @@
-<header class="intro">
-
 <?php if(!empty($pageType) && $pageType === 'index'): ?>
 <header class="intro">
   <div class="video-bg">
@@ -19,7 +17,7 @@
             <li><a href="#">Page 2</a></li>
           </ul>
         </nav>
-      </header>
+
 
       <div class="page-title">
         <h1 id="typing-text">Welcome!</h1>

@@ -17,7 +17,7 @@ include "../source/views/head.php"
   <div class="group-1">
 
       <div class="text-Info">
-
+        <p>hallo</p>
       </div>
 
       <div class="whole-group-photo">
