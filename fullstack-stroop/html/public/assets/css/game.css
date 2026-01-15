@@ -17,7 +17,7 @@ header {
 
 
 #particles-js {
-  position: absolute;  /* stays behind everything */
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -284,10 +284,6 @@ footer {
   margin: 0;
 }
 
-/* Responsive Design */
-/* ================= RESPONSIVE ONLY ================= */
-
-/* -------- LAPTOP / SMALL DESKTOP -------- */
 @media (max-width: 1024px) {
   .game_image {
     width: 90vw;
@@ -306,7 +302,6 @@ footer {
   }
 }
 
-/* -------- TABLET -------- */
 @media (max-width: 768px) {
   .details_row {
     flex-direction: column;
@@ -342,7 +337,6 @@ footer {
   }
 }
 
-/* -------- MOBILE -------- */
 @media (max-width: 480px) {
   .game_image {
     width: 95vw;

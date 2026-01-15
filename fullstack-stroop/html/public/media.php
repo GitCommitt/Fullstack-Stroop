@@ -8,8 +8,6 @@ include "../source/views/head.php"
 <?php include_once "../source/views/header.php"?>
 
 <main>
-
-    <!-- GROUP SECTION -->
     <section class="group_section">
         <div class="group_photo">
             <img src="/assets/img/gameplay.png" alt="Group photo">
@@ -28,7 +26,6 @@ include "../source/views/head.php"
         </div>
     </section>
 
-    <!-- ALBUMS -->
     <section class="albums">
         <article class="album">
             <img src="/assets/img/gameplay.png" alt="Foto album">

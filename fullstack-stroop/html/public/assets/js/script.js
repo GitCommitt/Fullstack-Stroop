@@ -21,10 +21,9 @@ function type() {
     return;
   }
 
-  // wait a bit before starting next word, prevents visible "jump"
   if (deleting && charIndex === 0) {
     deleting = false;
-    textEl.textContent = " "; // keeps one space visible to avoid collapse
+    textEl.textContent = " ";
     textIndex = (textIndex + 1) % texts.length;
     setTimeout(type, 500);
     return;
@@ -34,7 +33,6 @@ function type() {
 }
 
 type();
-
 
 particlesJS("particles-js", {
   particles: {
@@ -68,10 +66,10 @@ particlesJS("particles-js", {
   retina_detect: true
 });
 
-    const progressBar = document.getElementById('progressBar');
-    window.addEventListener('scroll', () => {
-      const scrollTop = window.scrollY;
-      const docHeight = document.body.scrollHeight - window.innerHeight;
-      const scrollPercent = (scrollTop / docHeight) * 100;
-      progressBar.style.width = scrollPercent + '%';
-    });
+const progressBar = document.getElementById('progressBar');
+window.addEventListener('scroll', () => {
+  const scrollTop = window.scrollY;
+  const docHeight = document.body.scrollHeight - window.innerHeight;
+  const scrollPercent = (scrollTop / docHeight) * 100;
+  progressBar.style.width = scrollPercent + '%';
+});

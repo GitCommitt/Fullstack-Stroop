@@ -41,9 +41,9 @@ include "../../source/views/head.php";
     </div>
 
     <section class="download_button">
-       <section class="download_button">
-            <button><a href="../game-downloads/<?= $game['downloadFunction'] ?>" download>Download Here</a></button>
-        </section>
+        <button>
+            <a href="../game-downloads/<?= $game['downloadFunction'] ?>" download>Download</a>
+        </button>
     </section>
 </main>
 
