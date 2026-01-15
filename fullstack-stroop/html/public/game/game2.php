@@ -1,27 +1,18 @@
 <?php
 $game = [
-    'title' => 'Game 2 Title',
-    'genre' => 'Lorem ipsum dolor sit amet.',
-    'description' => '
-                        Game 1 description goes here. This is where you can provide details about the game, its
-                        features,
-                        and any other relevant information that players might find useful.Game 4 description goes
-                        here. This is where you can provide details about the game, its features,
-                        and any other relevant information that players might find useful.Game 4 description goes
-                        here. This is where you can provide details about the game, its features,
-                        and any other relevant information that players might find useful.Game 4 description goes
-                        here. This is where you can provide details about the game, its features,
-                        and any other relevant information that players might find useful.Game 4 description goes
-                        here. This is where you can provide details about the game, its features,
-                        and any other relevant information that players might find useful.where you can provide details about the game, its features,
-                        and any other relevant information that players might find useful.a dfa d
-                    ',
+    'title' => 'Cheese heist Game',
+    'genre' => 'Mini Games',
+    'description' => 'A playful stealth-action game where players plan and execute daring cheese heists in creative and colorful environments, sneaking past guards, avoiding traps, and using clever gadgets to steal valuable cheese without getting caught. Each level introduces new challenges, smarter enemies, and unique layouts that encourage experimentation and replayability, while successful heists unlock new characters, tools, and locations that keep the missions fresh and increasingly exciting.',
     'image' => '../assets/img/gameplay.png',
     'roles' => [
-        'Lorem ipsum dolor - software devlepor',
-        'Lorem ipsum dolor - software devlepor',
-        'Lorem ipsum dolor - software devlepor',
-        'Lorem ipsum dolor - software devlepor'
+        'Yago Breedijk – Full Stack Developer',
+        'Fiene de Witte – Game Artist',
+        'Ben Ekvall Johansson – Game Artist',
+        'Filip Carlsson – Game Artist',
+        'Arthur Henriquea Garcia – Game Developer',
+        'Oscar Ahlm – Game Developer',
+        'Victor Jeppson – Game Developer',
+        'Lucas Palmhager – Game Developer'
     ],
     'downloadFunction' => 'startGame2'
 ];
