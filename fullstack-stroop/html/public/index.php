@@ -6,7 +6,7 @@ include "../source/views/head.php"
 
 <body>
 
-<?= include_once "../source/views/header.php"?>
+<?php include_once "../source/views/header.php"?>
 
  <section class="section-1">
   <div class="group-1">
