@@ -1,12 +1,18 @@
 :root {
-    --soft-shadow: 0 6px 20px rgba(10, 10, 10, 0.08);
-    --card-bg: #C4C4C4;
+  --soft-shadow: 0 6px 20px rgba(10, 10, 10, 0.08);
+  --card-bg: #C4C4C4;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-    margin: 0;
-    padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -17,7 +23,8 @@ header {
 
 
 #particles-js {
-  position: absolute;  /* stays behind everything */
+  position: absolute;
+  /* stays behind everything */
   top: 0;
   left: 0;
   width: 100%;
@@ -58,145 +65,161 @@ nav ul {
 }
 
 @keyframes fadeIn {
-  0% { opacity: 0; transform: translateY(-30px); }
-  100% { opacity: 1; transform: translateY(0); }
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.logo-container img { animation-delay: 0.2s; }
-ul li:nth-child(1) { animation-delay: 0.4s; }
-ul li:nth-child(2) { animation-delay: 0.6s; }
+.logo-container img {
+  animation-delay: 0.2s;
+}
+
+ul li:nth-child(1) {
+  animation-delay: 0.4s;
+}
+
+ul li:nth-child(2) {
+  animation-delay: 0.6s;
+}
 
 .game_image {
-    display: flex;
-    flex-direction: column;
-    width: 94vw;
-    height: 60vh;
-    margin: 2% 4% 2% 3%;
-    border-radius: 30px;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 94vw;
+  height: 60vh;
+  margin: 2% 4% 2% 3%;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
-.game_title{
-      margin-bottom: 20px;
-      font-size: 2rem;
+.game_title {
+  margin-bottom: 20px;
+  font-size: 2rem;
 }
 
-.game_genre{
-      margin-bottom: 20px;
-      font-size: 1.5rem;
+.game_genre {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
 
 }
 
 .game_info {
-    margin-bottom: 20px;
-    font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
 
 }
 
 .info_section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin: 3% 10% 36px 3%;
-    background-color: var(--card-bg);
-    padding: 48px;
-    border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 3% 10% 36px 3%;
+  background-color: var(--card-bg);
+  padding: 48px;
+  border-radius: 30px;
 }
 
 .details_row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .group_Photoarea {
-    display: flex;
-    flex-direction: column;
-    margin: 0 5% 20px 3%;
-    border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 5% 20px 3%;
+  border-radius: 30px;
 }
 
 .group_Photo {
-    display: flex;
-    flex-direction: row;
-    border-radius: 30px;
-    margin-top: 12%;
-    height: 39vh;
+  display: flex;
+  flex-direction: row;
+  border-radius: 30px;
+  margin-top: 12%;
+  height: 39vh;
 }
 
 .group_info {
-    background-color: var(--card-bg);   
-    border-radius: 30px;
-    margin: 0 5% 0 3%;
+  background-color: var(--card-bg);
+  border-radius: 30px;
+  margin: 0 5% 0 3%;
 }
 
-.group_roles > h1{
-    margin-right: 15%;
-    margin-left: 20%;
+.group_roles>h1 {
+  margin-right: 15%;
+  margin-left: 20%;
 
 }
 
 .group_roles {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin-top: 8px;
-    padding-left: 0;;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+  padding-left: 0;
+  ;
 }
 
 .group_roles li {
-    display: flex;
-    list-style: disc;
-    margin-left: 15%;
-    text-align: center;
-    list-style-type: none;
-    margin-right: 15%;
-    font-size: 1.1rem;
-    margin-bottom: 2%;
+  display: flex;
+  list-style: disc;
+  margin-left: 15%;
+  text-align: center;
+  list-style-type: none;
+  margin-right: 15%;
+  font-size: 1.1rem;
+  margin-bottom: 2%;
 }
 
 .group_roles h1 {
-    margin: 3% 0 8px 0;
-    text-align: center;
-    width: 100%;
-    font-size: 2rem;
-    font-weight: 600;
+  margin: 3% 0 8px 0;
+  text-align: center;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .download_button {
-    display: flex;
-    margin-bottom: 40px;
-    margin-left: 2.5%;
-    justify-content: left;
-    border-radius: 30px;
+  display: flex;
+  margin-bottom: 40px;
+  margin-left: 2.5%;
+  justify-content: left;
+  border-radius: 30px;
 }
 
 button {
-    margin: 0 6px;
-    font-size: 20px;
-    padding: 10px 16px;
-    border: 1px solid rgba(0, 0, 0, 0.06);
-    cursor: pointer;
-    font-weight: 600;
-    border-radius: 30px;
-    color: #48515a;
-    background: #C4C4C4;
-    transition: transform 0.18s ease, background-color 0.18s ease, box-shadow 0.18s ease;
+  margin: 0 6px;
+  font-size: 20px;
+  padding: 10px 16px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 30px;
+  color: #48515a;
+  background: #C4C4C4;
+  transition: transform 0.18s ease, background-color 0.18s ease, box-shadow 0.18s ease;
 }
 
 button:hover {
-    box-shadow: var(--soft-shadow);
+  box-shadow: var(--soft-shadow);
 }
 
 button:focus {
-    outline: 2px solid rgba(74, 101, 133, 0.25);
-    outline-offset: 2px;
+  outline: 2px solid rgba(74, 101, 133, 0.25);
+  outline-offset: 2px;
 }
 
 .hidden {
-    display: none !important;
+  display: none !important;
 }
 
 footer {
@@ -236,7 +259,7 @@ footer {
 .footer-ned {
   display: flex;
   align-items: center;
-  min-width: 100% ;
+  min-width: 100%;
 }
 
 .footer-dif {
@@ -306,39 +329,33 @@ footer {
   }
 }
 
-/* -------- TABLET -------- */
+/* TABLET */
 @media (max-width: 768px) {
   .details_row {
     flex-direction: column;
-    align-items: center;
     gap: 2rem;
   }
 
-  .game_image {
-    width: 90vw;
-    height: 45vh;
-  }
-
+  .game_image,
   .info_section,
   .group_Photoarea,
   .group_info {
     width: 90vw;
-    margin: 0 auto;
+    margin: 0 auto 2rem;
   }
 
   .group_Photo {
-    height: auto;
-    max-height: 300px;
-  }
-
-  .group_roles li {
-    margin-left: 0;
-    margin-right: 0;
-    text-align: left;
+    height: 300px;
+    margin-top: 0;
   }
 
   .download_button {
     justify-content: center;
+    margin-left: 0;
+  }
+
+  .footer-every {
+    gap: 3rem;
   }
 }
 
