@@ -12,7 +12,7 @@ include "../source/views/head.php"
     <!-- GROUP SECTION -->
     <section class="group_section">
         <div class="group_photo">
-            <img src="/img/gameplay.png" alt="Group photo">
+            <img src="/assets/img/gameplay.png" alt="Group photo">
         </div>
 
         <div class="group_info">
@@ -34,12 +34,12 @@ include "../source/views/head.php"
     <!-- ALBUMS -->
     <section class="albums">
         <article class="album">
-            <img src="/img/gameplay.png" alt="Foto album">
+            <img src="/assets/img/gameplay.png" alt="Foto album">
             <h2>Foto album</h2>
         </article>
 
         <article class="album">
-            <img src="/img/gameplay.png" alt="Shorts album">
+            <img src="/assets/img/gameplay.png" alt="Shorts album">
             <h2>Shorts album</h2>
         </article>
     </section>
