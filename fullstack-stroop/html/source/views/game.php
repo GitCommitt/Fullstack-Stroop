@@ -41,10 +41,14 @@ include "../../source/views/head.php";
     </div>
 
     <section class="download_button">
-        <button onclick="<?= $game['downloadFunction'] ?>()">Download link</button>
+       <section class="download_button">
+            <button><a href="../game-downloads/<?= $game['downloadFunction'] ?>" download>Download Here</a></button>
+        </section>
     </section>
 </main>
 
 <?php include "../../source/views/footer.php"; ?>
+ 
 </body>
+
 </html>

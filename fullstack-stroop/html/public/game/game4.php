@@ -14,7 +14,7 @@ $game = [
         'Kalle Ehrsson – Game Developer',
         'Charlie Buhre Hägglund – Game Developer'
     ],
-    'downloadFunction' => 'startGame4'
+    'downloadFunction' => 'game4.exe'
 ];
 
 include "../../source/views/game.php";

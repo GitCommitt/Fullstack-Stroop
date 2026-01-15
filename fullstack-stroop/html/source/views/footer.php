@@ -41,7 +41,3 @@
         <p class="footer-cop_text">copyright 2025 - Stroop</p>
       </div>
  </footer>
- 
-</body>
-
-</html>

@@ -21,7 +21,7 @@ include "../source/views/head.php"
                 <li>Lisa van Galen – Photographic Designer</li>
                 <li>Paulina Figurina – Graphic Designer</li>
                 <li>Evin Ocklind – Media Designer</li>
-                <li>Esmée van der Land – Audiovisual</li>
+                <li>Esmée van der Landss – Audiovisual</li>
                 <li>Milan Schildknegt – Audiovisual</li>
                 <li>Lyna Israil – Audiovisual</li>
             </ul>
@@ -43,41 +43,7 @@ include "../source/views/head.php"
 
 </main>
 
-<footer>
-    <div class="footer_inner">
-
-        <div class="footer_block">
-            <h3>Website</h3>
-            <p>Daan Pronk</p>
-            <p>Jesper van Niekerk</p>
-            <p>Luella Hanen</p>
-            <p>Micha Vas</p>
-            <p>Johan Yongxian</p>
-        </div>
-
-        <div class="footer_block">
-            <h3>Media</h3>
-            <p>Lisa van Galen</p>
-            <p>Paulina Figurina</p>
-            <p>Evin Ocklind</p>
-            <p>Esmée van der Land</p>
-            <p>Milan Schildknegt</p>
-            <p>Lyna Israil</p>
-        </div>
-
-        <div class="footer_block footer_collab">
-            <p>LBS Södra</p>
-            <p>LBS Norra</p>
-            <span>X</span>
-            <p>Media College</p>
-        </div>
-
-    </div>
-
-    <div class="footer_copy">
-        copyright 2025 – Stroop
-    </div>
-</footer>
+<?php include "../source/views/footer.php"; ?>
 
 </body>
 </html>
