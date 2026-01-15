@@ -200,7 +200,6 @@ footer {
   min-width: 43%;
 }
 
-<<<<<<< Updated upstream
 .footer-ned {
   display: flex;
   align-items: center;
@@ -250,17 +249,14 @@ footer {
   list-style: none;
   padding: 0;
   margin: 0;
-=======
+}
 .footer_copy {
     text-align: center;
     padding: 16px;
     font-size: 0.9rem;
     color: #bbb;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
 }
 
 /* mobile */
