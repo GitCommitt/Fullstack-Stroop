@@ -18,15 +18,12 @@ include "../source/views/head.php"
         <div class="group_info">
             <h1>Group roles</h1>
             <ul>
-                <li>Lorem ipsum – software developer</li>
-                <li>Lorem ipsum – software developer</li>
-                <li>Lorem ipsum – software developer</li>
-                <li>Lorem ipsum – software developer</li>
-                <li>Lorem ipsum – software developer</li>
-                <li>Lorem ipsum – software developer</li>
-                <li>Lorem ipsum – software developer</li>
-                <li>Lorem ipsum – software developer</li>
-                <li>Lorem ipsum – software developer</li>
+                <li>Lisa van Galen – Photographic Designer</li>
+                <li>Paulina Figurina – Graphic Designer</li>
+                <li>Evin Ocklind – Media Designer</li>
+                <li>Esmée van der Land – Audiovisual</li>
+                <li>Milan Schildknegt – Audiovisual</li>
+                <li>Lyna Israil – Audiovisual</li>
             </ul>
         </div>
     </section>
