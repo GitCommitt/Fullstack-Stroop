@@ -13,8 +13,8 @@
             <img src="../assets/img/logo.png" alt="logo">
           </div>
           <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="media.php">Media</a></li>
+            <li><button class="dropbtn" href="index.php">Home</button></li>
+            <li><button class="dropbtn" href="media.php">Media</button></li>
             <li class="dropdown">
               <button class="dropbtn" type="button" aria-haspopup="true" aria-expanded="false">Games</button>
               <ul class="dropdown-menu" aria-label="Games">
@@ -57,8 +57,8 @@
         <img src="../assets/img/logo.png" alt="logo">
       </div>
         <ul>
-         <li><a href="../index.php">Home</a></li>
-         <li><a href="../media.php">Media</a></li>
+            <li><button class="dropbtn" href="../index.php">Home</button></li>
+            <li><button class="dropbtn" href="../media.php">Media</button></li>
          <li class="dropdown">
            <button class="dropbtn" type="button" aria-haspopup="true" aria-expanded="false">Games</button>
            <ul class="dropdown-menu" aria-label="Games">

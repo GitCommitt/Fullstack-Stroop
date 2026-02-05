@@ -53,6 +53,16 @@ nav ul > li {
   position: relative;
 }
 
+.button-nav{
+    color: white;
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  width: 150%;
+}
+
 nav ul > li a,
 .dropbtn {
   color: white;
