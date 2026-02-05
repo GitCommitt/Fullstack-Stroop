@@ -57,14 +57,19 @@
         <img src="../assets/img/logo.png" alt="logo">
       </div>
         <ul>
-          <li><a href="../index.php">Home</a></li>
-          <li><a href="../media.php">Media</a></li>
-          <li><a href="game/game1.php">Ikea</a></li>
-          <li><a href="game/game2.php">Cheese</a></li>
-          <li><a href="game/game3.php">Viking</a></li>
-          <li><a href="game/game4.php">Train</a></li>
-          <li><a href="game/game5.php">Gnome</a></li>
-        </ul>
+         <li><a href="../index.php">Home</a></li>
+         <li><a href="../media.php">Media</a></li>
+         <li class="dropdown">
+           <button class="dropbtn" type="button" aria-haspopup="true" aria-expanded="false">Games</button>
+           <ul class="dropdown-menu" aria-label="Games">
+                <li><a href="game/game1.php">Ikea</a></li>
+                <li><a href="game/game2.php">Cheese</a></li>
+                <li><a href="game/game3.php">Viking</a></li>
+                <li><a href="game/game4.php">Train</a></li>
+                <li><a href="game/game5.php">Gnome</a></li>
+           </ul>
+         </li>
+      </ul>
     </nav>
   </header>
 
