@@ -6,7 +6,7 @@ include "../../source/views/head.php";
 <?php include "../../source/views/header.php"; ?>
 
 <main>
-    <img src="<?= $game['image'] ?>" class="game_image">
+    <img src="<?= $game['image-game'] ?>" class="game_image">
 
     <div class="details_row">
         <section class="info_section">
@@ -25,7 +25,7 @@ include "../../source/views/head.php";
 
         <div class="group_section">
             <section class="group_Photoarea">
-                <img src="<?= $game['image'] ?>" class="group_Photo">
+                <img src="<?= $game['image-group'] ?>" class="group_Photo">
             </section>
             <section class="group_info">
                 <section class="group_roles">
