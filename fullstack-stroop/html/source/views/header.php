@@ -15,10 +15,10 @@
           <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="media.php">Media</a></li>
-            <li><a href="game/game1.php">game 1</a></li>
-            <li><a href="game/game2.php">game 2</a></li>
-            <li><a href="game/game3.php">game 3</a></li>
-            <li><a href="game/game4.php">game 4</a></li>
+            <li><a href="game/game1.php">Ikea</a></li>
+            <li><a href="game/game2.php">Cheese</a></li>
+            <li><a href="game/game3.php">Viking</a></li>
+            <li><a href="game/game4.php">Train</a></li>
             <li><a href="game/game5.php">Gnome</a></li>
           </ul>
         </nav>
