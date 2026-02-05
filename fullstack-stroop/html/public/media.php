@@ -40,7 +40,6 @@ include "../source/views/head.php"
             <h2>Shorts album</h2>
         </article>
     </section>
-
 </main>
 
 <?php include "../source/views/footer.php"; ?>

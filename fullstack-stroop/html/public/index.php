@@ -26,9 +26,40 @@ include "../source/views/head.php"
 
  </section>
 
- <section class="section-2">
+     <section class="games_section">
+        <h1>Games</h1>
+        <div class="games_grid">
+            <article class="game_card">
+                <img src="/assets/img/gameplay.png" alt="Game 1">
+                <h2>Game 1</h2>
+                <a href="game/game1.php" class="game_link">Speel Game</a>
+            </article>
 
- </section>
+            <article class="game_card">
+                <img src="/assets/img/gameplay.png" alt="Game 2">
+                <h2>Game 2</h2>
+                <a href="game/game2.php" class="game_link">Speel Game</a>
+            </article>
+
+            <article class="game_card">
+                <img src="/assets/img/gameplay.png" alt="Game 3">
+                <h2>Game 3</h2>
+                <a href="game/game3.php" class="game_link">Speel Game</a>
+            </article>
+
+            <article class="game_card">
+                <img src="/assets/img/gameplay.png" alt="Game 4">
+                <h2>Game 4</h2>
+                <a href="game/game4.php" class="game_link">Speel Game</a>
+            </article>
+
+            <article class="game_card">
+                <img src="/assets/img/gameplay.png" alt="Game 5">
+                <h2>Game 5</h2>
+                <a href="game/game5.php" class="game_link">Speel Game</a>
+            </article>
+        </div>
+    </section>
 
 <?php include "../source/views/footer.php"; ?>
 
