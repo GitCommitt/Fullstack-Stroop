@@ -7,8 +7,8 @@
     </div>
 
     <svg class="wave-1" viewBox="0 0 960 540">...</svg>
-
-     <nav class="navi">
+<header class="intro">
+    <nav class="navi">
       <div class="logo-container">
         <img src="../assets/img/logo.png" alt="logo">
       </div>
@@ -27,7 +27,7 @@
          </li>
       </ul>
     </nav>
-
+  </header>
 
       <div class="page-title">
         <h1 id="typing-text">Welcome!</h1>
