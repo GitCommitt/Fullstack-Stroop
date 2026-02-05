@@ -10,7 +10,7 @@ include "../source/views/head.php"
 <main>
     <section class="group_section">
         <div class="group_photo">
-            <img src="/assets/img/gameplay.png" alt="Group photo">
+            <img src="/assets/img/group-photo/team-media.jpg" alt="Group photo">
         </div>
 
         <div class="group_info">
