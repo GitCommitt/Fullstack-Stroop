@@ -12,7 +12,7 @@ $game = [
         'Rebecka Åslund** – Game Artist',
         'Julian van de Leek – Game Developer',
         'Jack Thanh – Game Developer',
-        'Alicia Faune Gonzalez – Game Developer'
+        'Alicia Faune Gonzalez – Game Developerers'
     ],
     'downloadFunction' => 'game1.exe'
 ];

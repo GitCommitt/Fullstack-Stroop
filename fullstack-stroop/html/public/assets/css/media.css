@@ -1,6 +1,6 @@
 :root {
     --card-bg: #c4c4c4;
-    --shadow: 0 6px 20px rgba(0,0,0,0.08);
+    --shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
 }
 
 /* base */
@@ -8,9 +8,15 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
     margin: 0;
-    font-family:  Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 img {
@@ -19,61 +25,77 @@ img {
 }
 
 header {
-  background-color: rgba(0, 0, 0, 0);
-  position: relative;
-  overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
 }
 
 
 #particles-js {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  background: #000;
+    position: absolute;
+    /* stays behind everything */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: #000;
 }
 
 
 nav {
-  background-color: transparent;
-  height: 6rem;
-  display: flex;
-  align-items: center;
-  padding-right: 4rem;
+    background-color: transparent;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    padding-right: 4rem;
 }
 
 nav ul {
-  display: flex;
-  margin-left: auto;
-  gap: 3.5rem;
+    display: flex;
+    margin-left: auto;
+    gap: 3.5rem;
 }
 
 .logo-container {
-  width: 150px;
-  height: 150px;
+    width: 150px;
+    height: 150px;
 }
 
 .logo-container img {
-  width: 100%;
-  height: 100%;
-  border-radius: 40px;
-  margin-left: 1.5rem;
-  object-fit: contain;
-  opacity: 0;
-  transform: translateY(-30px);
-  animation: fadeIn 0.8s ease-out forwards;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    margin-left: 1.5rem;
+    object-fit: contain;
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: fadeIn 0.8s ease-out forwards;
 }
 
 @keyframes fadeIn {
-  0% { opacity: 0; transform: translateY(-30px); }
-  100% { opacity: 1; transform: translateY(0); }
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
-.logo-container img { animation-delay: 0.2s; }
-ul li:nth-child(1) { animation-delay: 0.4s; }
-ul li:nth-child(2) { animation-delay: 0.6s; }
+.logo-container img {
+    animation-delay: 0.2s;
+}
+
+ul li:nth-child(1) {
+    animation-delay: 0.4s;
+}
+
+ul li:nth-child(2) {
+    animation-delay: 0.6s;
+}
 
 main {
     max-width: 1200px;
@@ -224,8 +246,17 @@ footer {
   padding: 0;
   margin: 0;
 }
+.footer_copy {
+    text-align: center;
+    padding: 16px;
+    font-size: 0.9rem;
+    color: #bbb;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+
+}
 
 @media (max-width: 768px) {
+
     .group_section,
     .albums,
     .footer_inner {
