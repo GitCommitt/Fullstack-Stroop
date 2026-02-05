@@ -44,6 +44,25 @@
   </svg>
 </header>
 
+
+<?php elseif (!empty($pageType) && $pageType === 'media'): ?>
+  <header class="intro">
+    <nav class="navi">
+      <div class="logo-container">
+        <img src="../assets/img/logo.png" alt="logo">
+      </div>
+        <ul>
+          <li><a href="../index.php">Home</a></li>
+          <li><a href="../media.php">Media</a></li>
+          <li><a href="game/game1.php">Ikea</a></li>
+          <li><a href="game/game2.php">Cheese</a></li>
+          <li><a href="game/game3.php">Viking</a></li>
+          <li><a href="game/game4.php">Train</a></li>
+          <li><a href="game/game5.php">Gnome</a></li>
+        </ul>
+    </nav>
+  </header>
+
 <?php else: ?>
   <header class="intro">
     <nav class="navi">
