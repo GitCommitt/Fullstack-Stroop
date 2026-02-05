@@ -7,27 +7,27 @@
     </div>
 
     <svg class="wave-1" viewBox="0 0 960 540">...</svg>
-
-        <nav class="navi">
-          <div class="logo-container">
-            <img src="../assets/img/logo.png" alt="logo">
-          </div>
-          <ul>
+<header class="intro">
+    <nav class="navi">
+      <div class="logo-container">
+        <img src="../assets/img/logo.png" alt="logo">
+      </div>
+        <ul>
             <li><button class="dropbtn" href="index.php">Home</button></li>
             <li><button class="dropbtn" href="media.php">Media</button></li>
-            <li class="dropdown">
-              <button class="dropbtn" type="button" aria-haspopup="true" aria-expanded="false">Games</button>
-              <ul class="dropdown-menu" aria-label="Games">
+         <li class="dropdown">
+           <button class="dropbtn" type="button" aria-haspopup="true" aria-expanded="false">Games</button>
+           <ul class="dropdown-menu" aria-label="Games">
                 <li><a href="game/game1.php">Ikea</a></li>
                 <li><a href="game/game2.php">Cheese</a></li>
                 <li><a href="game/game3.php">Viking</a></li>
                 <li><a href="game/game4.php">Train</a></li>
                 <li><a href="game/game5.php">Gnome</a></li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
-
+           </ul>
+         </li>
+      </ul>
+    </nav>
+  </header>
 
       <div class="page-title">
         <h1 id="typing-text">Welcome!</h1>
