@@ -256,7 +256,7 @@ section {
 }
 
 .game_card .game_link {
-  background: linear-gradient(135deg, #0080ff 0%, #0058b0 100%);
+  background: #0058b0;
   color: white;
   text-decoration: none;
   padding: 0.8rem 1.5rem;
@@ -269,7 +269,7 @@ section {
 }
 
 .game_card .game_link:hover {
-  background: linear-gradient(135deg, #0099ff 0%, #0066d4 100%);
+  background: #0099ff;
   box-shadow: 0 6px 20px rgba(0, 128, 255, 0.5);
   transform: scale(1.05);
 }
