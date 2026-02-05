@@ -6,14 +6,13 @@ $game = [
     'image-game' => '../assets/img/thumbnail/team-1.jpg',
     'image-group' => '../assets/img/group-photo/team-1.jpg',
     'roles' => [
-        'Nick Esselman – Full Stack Developer',
         'Andreas Kreefft-Libiu – Game Artist',
         'Tim Schouten – Game Artist',
         'Julia Hjalmarström – Game Artist',
         'Rebecka Åslund** – Game Artist',
         'Julian van de Leek – Game Developer',
         'Jack Thanh – Game Developer',
-        'Alicia Faune Gonzalez – Game Developerers'
+        'Alicia Gonzalez – Game Developerers'
     ],
     'downloadFunction' => 'game1.exe'
 ];
