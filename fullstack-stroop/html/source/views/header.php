@@ -10,7 +10,7 @@
 <header class="intro">
     <nav class="navi">
       <div class="logo-container">
-        <img src="../assets/img/logo.png" alt="logo">
+        <a href="index.php"><img src="../assets/img/logo.png" alt="logo"></a>
       </div>
         <ul>
             <li><a class="dropbtn" href="index.php">Home</a></li>
@@ -54,7 +54,7 @@
   <header class="intro">
     <nav class="navi">
       <div class="logo-container">
-        <img src="../assets/img/logo.png" alt="logo">
+        <a href="index.php"><img src="../assets/img/logo.png" alt="logo"></a>
       </div>
         <ul>
             <li><a class="dropbtn" href="../index.php">Home</a></li>
@@ -77,7 +77,7 @@
   <header class="intro">
     <nav class="navi">
       <div class="logo-container">
-        <img src="../assets/img/logo.png" alt="logo">
+        <a href="../index.php"><img src="../assets/img/logo.png" alt="logo"></a>
       </div>
       <ul>
          <li><a href="../index.php">Home</a></li>
