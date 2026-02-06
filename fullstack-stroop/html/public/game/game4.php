@@ -2,7 +2,7 @@
 $game = [
     'title' => 'Train Game',
     'genre' => 'Puzzle',
-    'description' => 'A train-themed puzzle game where players must guide trains safely to their destinations by switching tracks, managing signals, and solving increasingly complex rail challenges. Each level introduces new obstacles, multiple trains, and limited time or move-based objectives that require careful planning and logical thinking. As the puzzles grow more difficult, players unlock new mechanics such as tunnels, bridges, speed controls, and special train types. The game focuses on strategy and precision, rewarding smart decisions and efficient solutions while creating a satisfying and engaging puzzle experience.',
+    'description' => 'A train-themed puzzle game where players click on objects to complete tasks and unlock the next train car. Each car contains small puzzles that require logical thinking. Once all cars are completed, players reach the conductor, where they must stop the train at the station at the perfect moment.',
     'image-game' => '../assets/img/thumbnail/team-4.jpg',
     'image-group' => '../assets/img/group-photo/team-4.jpg',
     'roles' => [

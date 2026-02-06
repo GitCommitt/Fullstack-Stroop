@@ -2,7 +2,7 @@
 $game = [
     'title' => 'Ikea delivery Game',
     'genre' => 'Delivery Game',
-    'description' => 'A fast-paced delivery game set in a lively city where players race against the clock to deliver packages as efficiently as possible. Navigate busy streets, avoid obstacles, and choose the smartest routes to reach your destinations on time. Each successful delivery earns rewards that can be used to upgrade vehicles, unlock new areas, and take on more challenging missions. With increasing difficulty, dynamic traffic, and time-critical objectives, the game tests your speed, strategy, and decision-making skills while keeping the gameplay fun and energetic.',
+    'description' => 'A fast-paced 2D platformer delivery game where players race against the clock to deliver IKEA furniture. Jump and navigate through levels full of obstacles and platforms while choosing the smartest routes to make timely deliveries. Successful deliveries unlock new areas and tougher challenges, with speed, timing, and reflexes at the core of the gameplay.',
     'image-game' => '../assets/img/thumbnail/team-1.jpg',
     'image-group' => '../assets/img/group-photo/team-1.jpg',
     'roles' => [
