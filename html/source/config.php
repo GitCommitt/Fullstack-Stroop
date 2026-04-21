@@ -1,6 +1,6 @@
 <?php
 
-$file = "../.env";
+$file = "../../.env";
 if(! file_exists($file))
 {
 
