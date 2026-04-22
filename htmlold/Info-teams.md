@@ -10,7 +10,6 @@
 **Daan Pronk** – Full Stack Developer  
 **Jesper van Niekerk** – Full Stack Developer  
 **Louella Hanen** – Full Stack Developer  
-**Micha Vas** – Web Development  
 **Johan Yongxian** – App and Web Development
 
 ## Team 1 — Game 01  

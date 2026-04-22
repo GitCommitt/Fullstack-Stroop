@@ -9,7 +9,7 @@ $game = [
         'Andreas Kreefft-Libiu – Game Artist',
         'Tim Schouten – Game Artist',
         'Julia Hjalmarström – Game Artist',
-        'Rebecka Åslund** – Game Artist',
+        'Rebecka Åslund – Game Artist',
         'Julian van de Leek – Game Developer',
         'Jack Thanh – Game Developer',
         'Alicia Gonzalez – Game Developerers'

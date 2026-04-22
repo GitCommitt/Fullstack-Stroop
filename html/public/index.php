@@ -45,7 +45,7 @@ include "../source/views/head.php";
 
             <article class="game_card">
                 <img src="assets/img/thumbnail/team-5.jpg" alt="Game 5">
-                <h2>Gnome Game</h2>
+                <h2>Un-gnome in the Mist</h2>
                 <a href="game/game5.php" class="game_link">Play Game</a>
             </article>
         </div>

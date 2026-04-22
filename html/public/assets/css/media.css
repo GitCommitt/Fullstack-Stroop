@@ -12,7 +12,7 @@ html,
 body {
   max-width: 100%;
   overflow-x: hidden;
-  background-color: #EEE8DF;
+  background-color: #F5DEB3;
 }   
 
 body {
@@ -46,25 +46,6 @@ img {
 .logo-container img { animation-delay: 0.2s; }
 ul li:nth-child(1) { animation-delay: 0.4s; }
 ul li:nth-child(2) { animation-delay: 0.6s; }
-
-
-header {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    padding: 2px 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    background-color: rgba(61, 33, 12, 0.703);
-}
-
-header nav {
-    display: flex;
-    align-items: center;
-    flex: 1;
-}
 
 ul li:nth-child(1) {
     animation-delay: 0.4s;
@@ -186,29 +167,32 @@ main {
 }
 
 .group_info {
-    background: var(--card-bg);
+    background: #462f15a4;
     border-radius: 16px;
     padding: 24px;
     text-shadow:  0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
-
+    
 }
 
 .group_info h1 {
     margin-top: 0;
     text-align: center;
-    color: #312313de;
+    color: #312313de;   
+    font-size: 3.5rem;
+    margin-top: 2rem;
 }
 
 .group_info ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    font-size: 1.25rem;
 }
 
 .group_info li {
     text-align: center;
     margin: 6px 0;
-    color: #312313de;
+    color: #312313de;   
 }
 
 .albums {
