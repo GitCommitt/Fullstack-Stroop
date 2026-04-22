@@ -1,11 +1,13 @@
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+  background-color: #EEE8DF;
 }
 
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif; 
+
 }
 
 header {
@@ -24,7 +26,7 @@ header {
   width: 100%;
   height: 100%;
   z-index: 0;
-  background: #000;
+  background: #ffffff;
 }
 
 
@@ -48,7 +50,7 @@ nav ul > li {
   list-style: none;
   display: inline-block;
   padding: 1rem 3rem;
-  background-color: grey;
+  background-color: #675442;
   border-radius: 20px;
   opacity: 0;
   transform: translateY(-30px);
@@ -57,7 +59,7 @@ nav ul > li {
 }
 
 .button-nav{
-  color: white;
+  color: #4d3d2c;
   text-decoration: none;
   background: transparent;
   border: none;
@@ -68,7 +70,7 @@ nav ul > li {
 
 nav ul > li a,
 .dropbtn {
-  color: white;
+  color: #f5deb3f2;
   text-decoration: none;
   background: transparent;
   border: none;
@@ -97,7 +99,7 @@ nav ul > li a,
   position: absolute;
   top: calc(100% + 0.6rem);
   left: 0;
-  background: grey;
+  background: #675442d6;
   border-radius: 16px;
   padding: 0.6rem;
   display: none;
@@ -186,11 +188,11 @@ ul li:nth-child(2) { animation-delay: 0.6s; }
 
 .page-title h1 {
   font-size: 6rem;
-  color: #003367;
+  color: rgb(56, 40, 24);
   font-weight: bold;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid #003367;
+  border-right: 3px solid rgb(103, 84, 66);;
   animation: blink 0.7s step-end infinite;
 }
 
@@ -262,7 +264,7 @@ section {
 }
 
 .section-1 {
-  background-color: #003367;
+  background-color: rgb(103, 84, 66);
 }
 
 .section-2 {
@@ -270,7 +272,7 @@ section {
 }
 
 .games_section {
-  background: linear-gradient(to bottom, rgba(0, 51, 103, 0.95) 0%, rgba(0, 88, 176, 0.95) 100%);
+  background: linear-gradient(to bottom, rgb(49, 35, 19, 0.95) 5%, rgb(103, 84, 66, 0.95) 100%);
   padding: 4rem 2rem;
   min-height: auto;
   position: relative;
@@ -288,7 +290,7 @@ section {
 }
 
 .games_section h1 {
-  color: white;
+  color: #F5DEB3;
   text-align: center;
   font-size: 3rem;
   margin-bottom: 3rem;
@@ -308,7 +310,7 @@ section {
 }
 
 .game_card {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(240, 248, 255, 0.95) 100%);
+  background: linear-gradient(135deg, rgba(141, 117, 74, 0.95) 15%, rgba(245, 222, 179, 0.95) 100%);
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
@@ -320,7 +322,7 @@ section {
 
 .game_card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 50px rgba(0, 128, 255, 0.4);
+  box-shadow: 0 20px 50px rgb(103, 84, 66, 0.4);
 }
 
 .game_card img {
@@ -335,15 +337,15 @@ section {
 }
 
 .game_card h2 {
-  color: #003367;
+  color: #3f3328;
   padding: 1.5rem 1.5rem 0.5rem;
   margin: 0;
   font-size: 1.5rem;
 }
 
 .game_card .game_link {
-  background: #0058b0;
-  color: white;
+  background: #675442;
+  color: #f5deb3f2;
   text-decoration: none;
   padding: 0.8rem 1.5rem;
   margin: 1rem 1.5rem 1.5rem;
@@ -351,12 +353,12 @@ section {
   text-align: center;
   font-weight: 600;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0, 128, 255, 0.3);
+  box-shadow: 0 4px 15px rgba(245, 222, 179, 0.95);
 }
 
 .game_card .game_link:hover {
-  background: #0099ff;
-  box-shadow: 0 6px 20px rgba(0, 128, 255, 0.5);
+  background: #aa8e73;
+  box-shadow: 0 6px 20px rgba(245, 222, 179, 0.95);
   transform: scale(1.05);
 }
 
@@ -372,7 +374,7 @@ section {
 }
 
 footer {
-  background-color: black;
+  background-color: #312313;
   padding: 2rem 1rem 1rem;
   display: flex;
   flex-direction: column;
@@ -421,32 +423,32 @@ footer {
   margin-top: auto;
   margin-bottom: 1rem;
   padding-top: 1rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(203, 194, 176, 0.95);
   width: 100%;
 }
 
 .footer-cop_text {
-  color: rgb(180, 180, 180);
+  color: rgba(203, 194, 176, 0.95);
   font-size: 0.9rem;
 }
 
 .footer-names {
-  color: white;
+  color: #f5deb3f2;;
   margin: 0.5rem 0;
 }
 
 .footer-title {
-  color: white;
+  color: #f5deb3f2;;
   margin-bottom: 1rem;
 }
 
 .footer-land {
-  color: white;
+  color: rgba(245, 222, 179, 0.95);
   margin: 0.3rem 0;
 }
 
 .footer-di_text {
-  color: white;
+  color: #f5deb3f2;
 }
 
 .footer-website ul,
@@ -455,3 +457,4 @@ footer {
   padding: 0;
   margin: 0;
 }
+

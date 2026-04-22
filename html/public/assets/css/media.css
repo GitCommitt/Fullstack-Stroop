@@ -1,6 +1,6 @@
 :root {
-    --card-bg: #c4c4c4;
-    --shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    --card-bg:  rgba(62, 34, 19, 0.573);
+    --shadow: 0 6px 20px rgba(62, 34, 19, 0.573);
 }
 
 /* base */
@@ -12,6 +12,7 @@ html,
 body {
   max-width: 100%;
   overflow-x: hidden;
+  background-color: #EEE8DF;
 }   
 
 body {
@@ -56,7 +57,7 @@ header {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: rgba(234, 230, 230, 0.7);
+    background-color: rgba(61, 33, 12, 0.703);
 }
 
 header nav {
@@ -86,7 +87,7 @@ nav ul > li {
     list-style: none;
     display: inline-block;
     padding: 1rem 3rem;
-    background-color: gray;
+    background-color: #4d3d2c;
     border-radius: 20px;
    
     position: relative;
@@ -94,7 +95,7 @@ nav ul > li {
 
 nav ul > li > a,
 .dropbtn {
-    color: white;
+    color: #d3bba3;
     text-decoration: none;
     background: transparent;
     border: none;
@@ -124,14 +125,14 @@ nav ul > li > a,
     position: absolute;
     top: calc(100% + 0.6rem);
     left: 0;
-    background: gray;
+    background: #675442;
     border-radius: 16px;
     padding: 0.6rem;
     display: none;
     flex-direction: column;
     gap: 0.4rem;
     min-width: 180px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 30px rgba(54, 36, 14, 0.482);
     z-index: 5;
     list-style: none;
     margin: 0;
@@ -151,13 +152,13 @@ nav ul > li > a,
     display: block;
     padding: 0.7rem 1rem;
     border-radius: 12px;
-    color: white;
+    color: #d3bba3;
     text-decoration: none;
 }
 
 .dropdown-menu a:hover,
 .dropdown-menu a:focus {
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(70, 56, 41, 0.322);
 }
 
 .dropdown:hover .dropdown-menu,
@@ -193,6 +194,7 @@ main {
 .group_info h1 {
     margin-top: 0;
     text-align: center;
+    color: #312313de;
 }
 
 .group_info ul {
@@ -204,12 +206,14 @@ main {
 .group_info li {
     text-align: center;
     margin: 6px 0;
+    color: #312313de;
 }
 
 .albums {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 32px;
+    color: #312313de;
 }
 
 .album {
@@ -231,7 +235,7 @@ main {
 }
 
 footer {
-  background-color: black;
+  background-color: #312313de;
   padding: 2rem 1rem 1rem;
   display: flex;
   flex-direction: column;
@@ -280,32 +284,32 @@ footer {
   margin-top: auto;
   margin-bottom: 1rem;
   padding-top: 1rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(203, 194, 176, 0.95);
   width: 100%;
 }
 
 .footer-cop_text {
-  color: rgb(180, 180, 180);
+  color: rgba(203, 194, 176, 0.95);
   font-size: 0.9rem;
 }
 
 .footer-names {
-  color: white;
+  color: #f5deb3f2;
   margin: 0.5rem 0;
 }
 
 .footer-title {
-  color: white;
+  color: #f5deb3f2;
   margin-bottom: 1rem;
 }
 
 .footer-land {
-  color: white;
+  color: #f5deb3f2;
   margin: 0.3rem 0;
 }
 
 .footer-di_text {
-  color: white;
+  color: #f5deb3f2;
 }
 
 .footer-website ul,
@@ -318,8 +322,8 @@ footer {
     text-align: center;
     padding: 16px;
     font-size: 0.9rem;
-    color: #bbb;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    color: rgba(203, 194, 176, 0.95);
+    border-top: 1px solid rgba(203, 194, 176, 0.95);
 
 }
 

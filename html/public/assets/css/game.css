@@ -1,6 +1,6 @@
 :root {
-    --soft-shadow: 0 6px 20px rgba(10, 10, 10, 0.08);
-    --card-bg: #C4C4C4;
+    --soft-shadow: 0 6px 20px #312313af;
+    --card-bg: #462f15a4;
 }
 
 body {
@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
   overflow-x: hidden;
+  background-color: #EEE8DF;
 
 }
 
@@ -44,7 +45,7 @@ header {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: rgba(234, 230, 230, 0.7);
+    background-color: #4d3d2c;
 
 }
 
@@ -68,17 +69,20 @@ header nav {
 .game_title{
       margin-bottom: 20px;
       font-size: 2rem;
+      color: #312313de;
 }
 
 .game_genre{
       margin-bottom: 20px;
       font-size: 1.5rem;
+      color: #312313de;
 
 }
 
 .game_info {
     margin-bottom: 20px;
     font-size: 1.2rem;
+    color: #312313de;
 
 }
 
@@ -91,12 +95,14 @@ header nav {
     background-color: var(--card-bg);
     padding: 48px;
     border-radius: 30px;
+    color: #312313de;
 }
 
 .details_row {
     display: flex;
     flex-direction: row;
     align-items: center;
+    color: #312313de;
 }
 
 .group_Photoarea {
@@ -166,11 +172,11 @@ button {
     margin: 0 6px;
     font-size: 20px;
     padding: 10px 16px;
-    border: 1px solid rgba(0, 0, 0, 0.06);
+    border: 1px solid rgb(45, 26, 15);
     cursor: pointer;
     font-weight: 600;
     border-radius: 30px;
-    color: #48515a;
+    color: rgb(103, 84, 66);
     background: #C4C4C4;
     transition: transform 0.18s ease, background-color 0.18s ease, box-shadow 0.18s ease;
 }
