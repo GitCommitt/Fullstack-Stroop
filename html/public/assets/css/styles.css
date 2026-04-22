@@ -345,6 +345,7 @@ footer {
   flex-direction: column;
   min-height: 300px;
   position: relative;
+  list-style: none;
 }
 
 .footer-every {
