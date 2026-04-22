@@ -11,14 +11,14 @@ header nav ul > li {
     list-style: none;
     display: inline-block;
     padding: 1rem 3rem;
-    background-color: gray;
+    background-color: #675442;
     border-radius: 20px;
     position: relative;
 }
 
 header nav ul > li > a,
 header nav .dropbtn {
-    color: white;
+    color: #f5deb3f2;
     text-decoration: none;
     background: transparent;
     border: none;
@@ -54,7 +54,7 @@ header nav .dropdown-menu {
     position: absolute;
     top: calc(100% + 0.6rem);
     left: 0;
-    background: gray;
+    background: #675442;
     border-radius: 16px;
     padding: 0.6rem;
     display: none;
@@ -81,13 +81,59 @@ header nav .dropdown-menu a {
     display: block;
     padding: 0.7rem 1rem;
     border-radius: 12px;
-    color: white;
+    color: #f5deb3f2;
     text-decoration: none;
 }
 
+
+nav {
+  background-color: transparent;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  padding-right: 4rem;
+  position: relative;
+  z-index: 10;
+}
+
+nav ul {
+  display: flex;
+  margin-left: auto;
+  gap: 3.5rem;
+}
+
+nav ul > li {
+  list-style: none;
+  display: inline-block;
+  padding: 1rem 3rem;
+  background-color: #675442;
+  border-radius: 20px;
+}
+
+.button-nav{
+  color: #4d3d2c;
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  width: 150%;
+}
+
+nav ul > li a,
+.dropbtn {
+  color: #f5deb3f2;
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+
 header nav .dropdown-menu a:hover,
 header nav .dropdown-menu a:focus {
-    background: rgba(255, 255, 255, 0.15);
+    background: #675442;
 }
 
 header nav .dropdown:hover .dropdown-menu,
