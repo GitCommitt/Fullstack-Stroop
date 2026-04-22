@@ -231,12 +231,12 @@ footer {
   margin-top: auto;
   margin-bottom: 1rem;
   padding-top: 1rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid #312313de;
   width: 100%;
 }
 
 .footer-cop_text {
-  color: rgb(180, 180, 180);
+  color: #312313de;
   font-size: 0.9rem;
 }
 
