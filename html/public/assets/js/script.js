@@ -37,14 +37,14 @@ type();
 particlesJS("particles-js", {
   particles: {
     number: { value: 80 },
-    color: { value: "#ffffff" },
+    color: { value: "#ff0000" },
     shape: { type: "circle" },
     opacity: { value: 0.4 },
     size: { value: 3, random: true },
     line_linked: {
       enable: true,
       distance: 150,
-      color: "#ffffff",
+      color: "#ff0000",
       opacity: 0.3,
       width: 1
     },
