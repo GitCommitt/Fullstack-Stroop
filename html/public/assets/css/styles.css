@@ -207,7 +207,27 @@ ul li:nth-child(2) { animation-delay: 0.6s; }
   width: 100%;
   margin-top: -2rem;
   margin-top: 2%;
-  
+}
+
+.project-info{
+  margin-bottom: 20%;
+  margin-top: 7%;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-size: 1.8rem;
+  border-color: #c4c4c4;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 20px;
+  background-color: #c4c4c4;
+
+}
+
+.project-info-text{
+  margin-left: 1rem;
+  margin-right: 1rem; 
+  text-shadow:  0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
 
 .frontpage-video iframe {
@@ -318,6 +338,7 @@ section {
   cursor: pointer;
   display: flex;
   flex-direction: column;
+  text-shadow:  0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
 }
 
 .game_card:hover {

@@ -1,0 +1,96 @@
+/* Shared header navigation styling across index, media and game pages */
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0 0 0 auto;
+    padding: 0;
+    gap: 12px;
+}
+
+header nav ul > li {
+    list-style: none;
+    display: inline-block;
+    padding: 1rem 3rem;
+    background-color: gray;
+    border-radius: 20px;
+    position: relative;
+}
+
+header nav ul > li > a,
+header nav .dropbtn {
+    color: white;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+    cursor: pointer;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    appearance: none;
+}
+
+header nav .dropdown {
+    padding: 0;
+}
+
+header nav .dropdown .dropbtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 1rem 3rem;
+    width: 100%;
+}
+
+header nav .dropdown .dropbtn::after {
+    content: "▾";
+    font-size: 0.9rem;
+}
+
+header nav .dropdown-menu {
+    position: absolute;
+    top: calc(100% + 0.6rem);
+    left: 0;
+    background: gray;
+    border-radius: 16px;
+    padding: 0.6rem;
+    display: none;
+    flex-direction: column;
+    gap: 0.4rem;
+    min-width: 180px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    z-index: 5;
+    list-style: none;
+    margin: 0;
+}
+
+header nav .dropdown-menu li {
+    list-style: none;
+    padding: 0;
+    background: transparent;
+    border-radius: 12px;
+    opacity: 1;
+    transform: none;
+    animation: none;
+}
+
+header nav .dropdown-menu a {
+    display: block;
+    padding: 0.7rem 1rem;
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav .dropdown-menu a:hover,
+header nav .dropdown-menu a:focus {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+header nav .dropdown:hover .dropdown-menu,
+header nav .dropdown:focus-within .dropdown-menu {
+    display: flex;
+}

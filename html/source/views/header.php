@@ -33,14 +33,22 @@
         <h1 id="typing-text">Welcome!</h1>
       </div>
 
-      <div class="frontpage-video">
+      <div class="frontpage-info_project frontpage-video">
+        <div class="project-info">
+          <p class="project-info-text"  >
+            This is the website for our full stack project, where we present the 5 games that were made during this project. Each game has its own page with more information about the game and the team behind it. Feel free to explore the games and learn more about the development process and the team members who contributed to each game. 
+          </p>
+        </div>
+      </div>
+
+      <!-- <div class="frontpage-video">
       <iframe
         src="https://www.youtube.com/embed/GUrDI6OkJfU"
         title="#"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture ; web-share"
         allowfullscreen
     ></iframe>
-      </div>
+      </div> -->
 
   <svg class="wave-1" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
     <path class="wave wave1" d="M0 440L26.7 436.8C53.3 433.7 106.7 427.3 160 424.5C213.3 421.7 266.7 422.3 320 419.5C373.3 416.7 426.7 410.3 480 414.8C533.3 419.3 586.7 434.7 640 441.3C693.3 448 746.7 446 800 442.5C853.3 439 906.7 434 933.3 431.5L960 429L960 541L0 541Z" fill="#896f54"></path>
@@ -80,8 +88,8 @@
         <a href="../index.php"><img src="../assets/img/logo.png" alt="logo"></a>
       </div>
       <ul>
-         <li><a href="../index.php">Home</a></li>
-         <li><a href="../media.php">Media</a></li>
+         <li><a class="dropbtn" href="../index.php">Home</a></li>
+         <li><a class="dropbtn" href="../media.php">Media</a></li>
          <li class="dropdown">
            <button class="dropbtn" type="button" aria-haspopup="true" aria-expanded="false">Games</button>
            <ul class="dropdown-menu" aria-label="Games">
