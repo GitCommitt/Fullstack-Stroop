@@ -10,7 +10,7 @@ header nav ul {
 header nav ul > li {
     list-style: none;
     display: inline-block;
-    padding: 1rem 3rem;
+    padding: 0;
     background-color: #675442;
     border-radius: 20px;
     position: relative;
@@ -27,9 +27,12 @@ header nav .dropbtn {
     font-weight: 500;
     line-height: 1.2;
     cursor: pointer;
-    padding: 0;
+    padding: 1rem 3rem;
     display: inline-flex;
     align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 20px;
     appearance: none;
 }
 
@@ -105,7 +108,7 @@ nav ul {
 nav ul > li {
   list-style: none;
   display: inline-block;
-  padding: 1rem 3rem;
+    padding: 0;
   background-color: #675442;
   border-radius: 20px;
 }
