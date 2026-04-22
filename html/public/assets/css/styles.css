@@ -336,6 +336,7 @@ section {
   cursor: pointer;
   display: flex;
   flex-direction: column;
+  text-shadow:  0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
 }
 
 .game_card:hover {
