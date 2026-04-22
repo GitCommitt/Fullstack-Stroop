@@ -35,7 +35,7 @@
 
       <div class="frontpage-info_project frontpage-video">
         <div class="project-info">
-          <p class="project-info-text">
+          <p class="project-info-text"  >
             This is the website for our full stack project, where we present the 5 games that were made during this project. Each game has its own page with more information about the game and the team behind it. Feel free to explore the games and learn more about the development process and the team members who contributed to each game. 
           </p>
         </div>
@@ -88,8 +88,8 @@
         <a href="../index.php"><img src="../assets/img/logo.png" alt="logo"></a>
       </div>
       <ul>
-         <li><a href="../index.php">Home</a></li>
-         <li><a href="../media.php">Media</a></li>
+         <li><a class="dropbtn" href="../index.php">Home</a></li>
+         <li><a class="dropbtn" href="../media.php">Media</a></li>
          <li class="dropdown">
            <button class="dropbtn" type="button" aria-haspopup="true" aria-expanded="false">Games</button>
            <ul class="dropdown-menu" aria-label="Games">
