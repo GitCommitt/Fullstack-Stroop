@@ -35,8 +35,9 @@
 
       <div class="frontpage-info_project frontpage-video">
         <div class="project-info">
-          <p>
+          <p class="project-info-text">
             This is the website for our full stack project, where we present the 5 games that were made during this project. Each game has its own page with more information about the game and the team behind it. Feel free to explore the games and learn more about the development process and the team members who contributed to each game. 
+          </p>
         </div>
       </div>
 
