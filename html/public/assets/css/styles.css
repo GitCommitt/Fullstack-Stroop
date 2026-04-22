@@ -78,7 +78,7 @@ nav ul > li a,
   border: none;
   font: inherit;
   cursor: pointer;
-  color: red;
+  
 }
 
 .dropdown {
@@ -165,6 +165,7 @@ ul li:nth-child(1) { animation-delay: 0.4s; }
 ul li:nth-child(2) { animation-delay: 0.6s; }
 
 .video-bg {
+  
   position: absolute;
   top: 0;
   left: 0;
@@ -213,12 +214,13 @@ ul li:nth-child(2) { animation-delay: 0.6s; }
 }
 
 .project-info{
+  background: linear-gradient(135deg, rgba(141, 117, 74, 0.95) 1%, rgba(245, 222, 179, 0.95) 100%);
   margin-bottom: 20%;
   margin-top: 7%;
   margin-right: 10%;
   margin-left: 10%;
   font-size: 1.8rem;
-  border-color: #c4c4c4;
+  border-color: rgba(141, 117, 74, 0.95);
   border-width: 2px;
   border-style: solid;
   border-radius: 20px;
@@ -447,17 +449,17 @@ footer {
   margin-top: auto;
   margin-bottom: 1rem;
   padding-top: 1rem;
-  border-top: 1px solid rgba(203, 194, 176, 0.95);
+  border-top: 1px solid #f5deb3f2;
   width: 100%;
 }
 
 .footer-cop_text {
-  color: rgba(203, 194, 176, 0.95);
+  color: #f5deb3f2;
   font-size: 0.9rem;
 }
 
 .footer-names {
-  color: #f5deb3f2;;
+  color: #f5deb3f2;
   margin: 0.5rem 0;
 }
 
