@@ -339,7 +339,7 @@ section {
 }
 
 footer {
-  background-color: #312313;
+  background-color: #312313de;
   padding: 2rem 1rem 1rem;
   display: flex;
   flex-direction: column;
@@ -394,7 +394,7 @@ footer {
 }
 
 .footer-cop_text {
-  color: rgba(203, 194, 176, 0.95);
+  color: #f5deb3f2;
   font-size: 0.9rem;
 }
 
