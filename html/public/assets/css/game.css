@@ -181,7 +181,7 @@ ul li:nth-child(2) { animation-delay: 0.6s; }
 }
 
 footer {
-  background-color: #312313de;
+  background-color: #462f15a4;
   padding: 2rem 1rem 1rem;
   display: flex;
   flex-direction: column;
@@ -236,27 +236,27 @@ footer {
 }
 
 .footer-cop_text {
-  color:#f5deb3f2;
+  color: rgb(180, 180, 180);
   font-size: 0.9rem;
 }
 
 .footer-names {
-  color: #f5deb3f2;
+  color: #312313de;
   margin: 0.5rem 0;
 }
 
 .footer-title {
-  color: #f5deb3f2;
+  color: #312313de;
   margin-bottom: 1rem;
 }
 
 .footer-land {
-  color: #f5deb3f2;
+  color: #312313de;
   margin: 0.3rem 0;
 }
 
 .footer-di_text {
-  color: #f5deb3f2;
+  color: #312313de;
 }
 
 .footer-website ul,
