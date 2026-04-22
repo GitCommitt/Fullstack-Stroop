@@ -11,14 +11,14 @@ header nav ul > li {
     list-style: none;
     display: inline-block;
     padding: 1rem 3rem;
-    background-color: gray;
+    background-color: #33281ed0;
     border-radius: 20px;
     position: relative;
 }
 
 header nav ul > li > a,
 header nav .dropbtn {
-    color: white;
+    color: #f5deb3f2;
     text-decoration: none;
     background: transparent;
     border: none;
@@ -54,7 +54,7 @@ header nav .dropdown-menu {
     position: absolute;
     top: calc(100% + 0.6rem);
     left: 0;
-    background: gray;
+    background: #33281eea;
     border-radius: 16px;
     padding: 0.6rem;
     display: none;
@@ -81,13 +81,13 @@ header nav .dropdown-menu a {
     display: block;
     padding: 0.7rem 1rem;
     border-radius: 12px;
-    color: white;
+    color: #f5deb3f2;
     text-decoration: none;
 }
 
 header nav .dropdown-menu a:hover,
 header nav .dropdown-menu a:focus {
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(245, 222, 179, 0.15);
 }
 
 header nav .dropdown:hover .dropdown-menu,

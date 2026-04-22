@@ -38,12 +38,14 @@ nav {
   padding-right: 4rem;
   position: relative;
   z-index: 10;
+  
 }
 
 nav ul {
   display: flex;
   margin-left: auto;
   gap: 3.5rem;
+  
 }
 
 nav ul > li {
@@ -76,6 +78,7 @@ nav ul > li a,
   border: none;
   font: inherit;
   cursor: pointer;
+  color: red;
 }
 
 .dropdown {

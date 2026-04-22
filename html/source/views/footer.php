@@ -6,7 +6,7 @@
             <ul><h2 class="footer-title">Website</h2></ul>
             <ul><p class="footer-names">Daan Pronk</p></ul>
             <ul><p class="footer-names">Jesper van Niekerk</p></ul>
-            <ul><p class="footer-names">Luella Hanen</p></ul>
+            <ul><p class="footer-names">Louella Hanen</p></ul>
             <ul><p class="footer-names">Micha Vas</p></ul>
             <ul><p class="footer-names">Johan Yongxian</p></ul>
           </li>

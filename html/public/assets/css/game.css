@@ -45,7 +45,7 @@ header {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #4d3d2c;
+    background-color: rgba(61, 33, 12, 0.703);
 
 }
 
@@ -95,7 +95,7 @@ header nav {
     background-color: var(--card-bg);
     padding: 48px;
     border-radius: 30px;
-    color: #312313de;
+    text-shadow:  0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
 }
 
 .details_row {
@@ -182,7 +182,7 @@ button {
     font-weight: 600;
     border-radius: 30px;
     color: rgb(103, 84, 66);
-    background: #C4C4C4;
+    background: #312313;
     transition: transform 0.18s ease, background-color 0.18s ease, box-shadow 0.18s ease;
 }
 
@@ -191,7 +191,7 @@ button:hover {
 }
 
 button:focus {
-    outline: 2px solid rgba(74, 101, 133, 0.25);
+    outline: 2px solid #312313;
     outline-offset: 2px;
 }
 
@@ -200,7 +200,7 @@ button:focus {
 }
 
 footer {
-  background-color: black;
+  background-color: #312313;
   padding: 2rem 1rem 1rem;
   display: flex;
   flex-direction: column;
@@ -249,32 +249,32 @@ footer {
   margin-top: auto;
   margin-bottom: 1rem;
   padding-top: 1rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid #ddbd96;
   width: 100%;
 }
 
 .footer-cop_text {
-  color: rgb(180, 180, 180);
+  color: #ddbd96;
   font-size: 0.9rem;
 }
 
 .footer-names {
-  color: white;
+  color: #ddbd96;
   margin: 0.5rem 0;
 }
 
 .footer-title {
-  color: white;
+  color: #ddbd96;;
   margin-bottom: 1rem;
 }
 
 .footer-land {
-  color: white;
+  color: #ddbd96;;
   margin: 0.3rem 0;
 }
 
 .footer-di_text {
-  color: white;
+  color: #ddbd96;;
 }
 
 .footer-website ul,
