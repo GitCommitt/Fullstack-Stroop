@@ -34,13 +34,13 @@ include "../source/views/head.php";
             <article class="game_card">
                 <img src="assets/img/thumbnail/team-3.jpg" alt="Game 3">
                 <h2>Viking Game</h2>
-                <a href="game/game3.php" class="game_link">Play Game</a>
+                <a href="game/game4.php" class="game_link">Play Game</a>
             </article>
 
             <article class="game_card">
                 <img src="assets/img/thumbnail/team-4.jpg" alt="Game 4">
                 <h2>Train Game</h2>
-                <a href="game/game4.php" class="game_link">Play Game</a>
+                <a href="game/game3.php" class="game_link">Play Game</a>
             </article>
 
             <article class="game_card">
