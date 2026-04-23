@@ -213,6 +213,73 @@ main {
     object-fit: cover;
 }
 
+.photo-slider {
+  position: relative;
+  height: 260px;
+  overflow: hidden;
+  border-bottom: 2px solid rgba(49, 35, 19, 0.35);
+  background: linear-gradient(140deg, #5b4128, #7a5a39);
+}
+
+.slider-track {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slider-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  pointer-events: none;
+}
+
+.slider-image.is-active {
+  opacity: 1;
+}
+
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(245, 222, 179, 0.7);
+  border-radius: 999px;
+  background: rgba(49, 35, 19, 0.78);
+  color: #f5deb3;
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  z-index: 2;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.slider-btn:hover,
+.slider-btn:focus-visible {
+  background: rgba(103, 84, 66, 0.96);
+  transform: translateY(-50%) scale(1.04);
+}
+
+.slider-btn:focus-visible {
+  outline: 2px solid #f5deb3;
+  outline-offset: 2px;
+}
+
+.slider-btn-prev {
+  left: 12px;
+}
+
+.slider-btn-next {
+  right: 12px;
+}
+
 .album h2 {
     margin: 0;
     padding: 20px;
@@ -322,8 +389,15 @@ footer {
     }
 
     .group_photo img,
-    .album img {
+    .album img,
+    .photo-slider {
         height: 220px;
+    }
+
+    .slider-btn {
+      width: 38px;
+      height: 38px;
+      font-size: 1.2rem;
     }
 
     .footer_collab {

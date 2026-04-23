@@ -28,7 +28,18 @@ include "../source/views/head.php"
 
     <section class="albums">
         <article class="album">
-            <img src="/assets/img/gameplay.png" alt="Foto album">
+            <div class="photo-slider" aria-label="Foto album slider" tabindex="0">
+                <button class="slider-btn slider-btn-prev" type="button" aria-label="Vorige foto">&#10094;</button>
+                <div class="slider-track">
+                    <img src="/assets/img/group-photo/team-media.jpg" alt="Groepsfoto team" class="slider-image is-active">
+                    <img src="/assets/img/group-photo/team-1.jpg" alt="Groepsfoto 1" class="slider-image">
+                    <img src="/assets/img/group-photo/team-2.jpg" alt="Groepsfoto 2" class="slider-image">
+                    <img src="/assets/img/group-photo/team-3.jpg" alt="Groepsfoto 3" class="slider-image">
+                    <img src="/assets/img/group-photo/team-4.jpg" alt="Groepsfoto 4" class="slider-image">
+                    <img src="/assets/img/group-photo/team-5.jpg" alt="Groepsfoto 5" class="slider-image">
+                </div>
+                <button class="slider-btn slider-btn-next" type="button" aria-label="Volgende foto">&#10095;</button>
+            </div>
             <h2>Foto album</h2>
         </article>
 
