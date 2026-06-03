@@ -36,4 +36,4 @@ Het project kende een totale looptijd van een half jaar en was onderverdeeld in 
 
 ## Website link
 
-** Website: ** https://stroop.mediacollege.rocks/
+**Website:** https://stroop.mediacollege.rocks/
