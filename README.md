@@ -32,6 +32,8 @@ Het project kende een totale looptijd van een half jaar en was onderverdeeld in 
 2. **Remote Development (Lange Online Periode):** Na de eerste fysieke ontmoeting volgde een uitgebreide online periode. Vanuit Nederland en Zweden is er remote samengewerkt aan de opzet van de website en de development van de eerste prototypes van de games.
 3. **Bezoek (Zweden):** Het project werd afgerond met een tegenbezoek van een week aan Zweden. Deze week stond volledig in het teken van de hoofdontwikkeling, het samenvoegen van de codebases, uitgebreid testen en het live zetten van de uiteindelijke website.
 
-## Website Link
+---
 
-https://stroop.mediacollege.rocks/
+## Website link
+
+** Website: ** https://stroop.mediacollege.rocks/
